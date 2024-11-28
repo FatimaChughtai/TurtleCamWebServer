@@ -84,6 +84,6 @@ elif [ "$1" == "video" ]; then
   sleep $timeDelay
   record_video
 else
-  echo "Invalid option. Use 'picture' to take a picture or 'video' to record a video."
+  echo "Invalid. Use 'picture' to take a picture or 'video' to record a video."
   exit 1
 fi
